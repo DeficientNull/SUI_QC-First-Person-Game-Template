@@ -61,8 +61,8 @@ void() PlayerCrouch =
     else if (self.flags & FL_CROUCHING)
     {
         // Check if we can stand up (no obstacles above)
-        tracebox(self.origin, '-16 -16 -24', '16 16 56', self.origin + '0 0 28', MOVE_NORMAL, self);
-        if (trace_fraction == 1)
+        tracebox(self.origin, '-16 -16 0', '16 16 64', self.origin, MOVE_NORMAL, self);
+        if (!trace_allsolid)
         {
             self.flags = self.flags - (self.flags & FL_CROUCHING);
             setsize(self, '-16 -16 0', '14 14 64');
