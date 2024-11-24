@@ -1,0 +1,112 @@
+---- qbsp / ericw-tools 2.0.0-alpha8 ----
+
+--- Options Summary ---
+    "q2bsp" was set to "1" (from command line)
+    "chop" was set to "1" (from game target)
+    "maxedges" was set to "0" (from game target)
+
+Input file: /home/null/_01_projects/market_demo/sui-template/maps/test_generic-compile.map
+Output file: /home/null/_01_projects/market_demo/sui-template/maps/test_generic.bsp
+
+using gamedir: '/home/null/_01_projects/market_demo/sui-template'
+WARNING: failed to find basedir '/home/null/_01_projects/market_demo/baseq2'
+LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
+INFO: using built-in palette.
+WARNING: Couldn't locate texture for skip
+      3 entities
+      4 unique textures
+     75 texinfos
+    144 unique planes
+
+INFO: world extents calculated to 2072 units
+     36 brushes
+    213 sides
+      6 side bevels
+
+Processing map...
+    35 SOLID brushes
+    35 brushes total
+    207 visible sides
+INFO: calculating BSP for 35 brushes with 207 sides
+chopped 35 brushes into 35
+     35 brushes
+    207 visible faces
+    220 nodes
+    195 expensive split nodes
+     25 mid-split nodes
+    221 leaves
+     80 SOLID leafs
+    141 EMPTY leafs
+    221 leafs total
+    14 max tree height
+    10 avg tree height
+    983 tree portals
+    65 outside leaves
+    0 detail filled leafs
+     35 brushes
+    130 visible faces
+     77 non-visible faces
+    178 nodes
+     57 non-visible nodes
+    178 expensive split nodes
+    179 leaves
+     65 SOLID leafs
+    114 EMPTY leafs
+    179 leafs total
+    15 max tree height
+    10 avg tree height
+    815 tree portals
+    57 outside leaves
+    0 detail filled leafs
+    1 areas
+    1 area portals
+    815 tree portals
+    448 sides visible
+    224 makefaces
+     41 merged
+     98 subdivided
+    61 nodes pruned
+     57 player-occupiable leaves
+     57 clusters of leaves
+    168 vis portals
+     57 EMPTY leafs
+     61 SOLID leafs
+    118 leafs total
+    15 max tree height
+    10 avg tree height
+    240 edges added by tjunctions
+    278 faces optimized through MWT
+    795 triangles computed from MWT
+     53 faces created via optimization of MWT triangles
+    733 edges
+    334 faces
+     35 total brushes
+    213 total brush sides
+     65 total leaf brushes
+     32 optimized brush side texinfos
+Writing test_generic.bsp as Quake II BSP IBSP:38
+Wrote test_generic.bsp
+
+count   lump name    byte size 
+      2 models               96
+    112 planes             2240
+    401 vertexes           4812
+    123 nodes              3444
+     58 texinfos           4408
+    340 faces              6800
+    126 leafs              3528
+    402 leaffaces           804
+     66 leafbrushes         132
+    746 edges              2984
+   1490 surfedges          5960
+     36 brushes             432
+    219 brushsides          876
+      2 areas                16
+      1 areaportals           8
+        lightdata             0
+        visdata               0
+        entdata             272
+
+0.011s seconds elapsed
+
+

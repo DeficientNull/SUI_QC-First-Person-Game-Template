@@ -1,0 +1,56 @@
+@BaseClass = Targetname
+[
+	targetname(target_source) : "Name" : : "The name that other entities refer to this entity by."
+]
+
+@BaseClass = Target 
+[
+	target(target_destination) : "Target" : : "The name of the entity to target."
+]
+
+@BaseClass = Light
+[
+    light(integer) : "Brightness" : 300 : "Light radius/intensity"
+    color(color1) : "Light Color" : "1 1 1" : "RGB color of the light (default: white)"
+    style(choices) : "Light Style" : 0 =
+    [
+        0 : "Normal"
+        1 : "Flicker"
+        2 : "Slow pulse"
+        3 : "Fast pulse"
+    ]
+]
+
+@PointClass base(Targetname) size(-16 -16 -24, 16 16 32) color(0 255 0) = info_player_start : "Player 1 start"
+[
+]
+
+@SolidClass base(Targetname) = func_wall : "Solid wall"
+[
+	spawnflags(flags) =
+	[
+		1 : "Not solid" : 0
+		2 : "Trigger" : 0
+	]
+]
+
+@SolidClass base(Targetname) = func_detail : "Detail brush"
+[
+]
+
+@SolidClass base(Targetname) = func_illusionary : "Non-solid brush"
+[
+]
+
+@PointClass base(Targetname, Target) color(200 150 150) = info_null : "info_null (spotlight target)"
+[
+]
+
+@PointClass base(Light, Targetname) color(255 255 0) = light : "Basic light"
+[
+]
+
+@PointClass base(Light, Targetname) color(255 255 128) = light_dynamic : "Dynamic light"
+[
+    _light_lev(integer) : "Base Light Level" : 300 : "Base light level for pulsing/flickering"
+]

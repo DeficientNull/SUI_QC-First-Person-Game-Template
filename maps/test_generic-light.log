@@ -1,0 +1,52 @@
+---- light / ericw-tools 2.0.0-alpha8 ----
+LoadBSPFile: 'test_generic.bsp'
+BSP is version Quake II BSP IBSP:38
+using gamedir: '/home/null/_01_projects/market_demo/sui-template'
+WARNING: failed to find basedir '/home/null/_01_projects/market_demo/baseq2'
+LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
+INFO: using built-in palette.
+AddTextureName: WARNING: can't find meta data for checkers
+AddTextureName: WARNING: can't find meta data for sky25_64
+AddTextureName: WARNING: can't find meta data for clip
+Loading extended texinfo flags from test_generic.texinfo.json...
+3 entities read, 0 are lights.
+
+--- Options Summary ---
+    "range" was set to "1.000000" (from game target)
+    "dirt" was set to "1" (from command line)
+    "minlight_dirt" was set to "1" (from command line)
+    "bounce" was set to "1" (from command line)
+    "bouncestyled" was set to "1" (from game target)
+    "bouncescale" was set to "0.850000" (from game target)
+    "bouncecolorscale" was set to "0.500000" (from game target)
+    "surflightscale" was set to "0.650000" (from game target)
+    "surflightskyscale" was set to "0.650000" (from game target)
+    "sunlight" was set to "320.000000" (from map)
+    "sunlight_color" was set to "214 234 217" (from map)
+    "sunlight_dirt" was set to "1.000000" (from command line)
+    "sunlight2_dirt" was set to "1.000000" (from command line)
+    "surflight_radiosity" was set to "1" (from game target)
+    "soft" was set to "2" (from command line)
+    "extra" was set to "4" (from command line)
+
+Embree_TraceInit: Embree version: 3.13.1
+Embree_TraceInit: 
+	0 sky faces
+	334 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 0 initial lights
+SetupLights: 0 after surface lights
+SetupLights: 0 after jittering
+Final count: 0 lights, 1 suns in use.
+       48 dirtmap vectors
+0 surface light points in use.
+lightmap size (total): 70476
+Lighting Completed.
+
+0 switchable light styles (32 max)
+Writing test_generic.bsp as Quake II BSP IBSP:38
+0.149s seconds elapsed
+0 empty lightmaps
+
+

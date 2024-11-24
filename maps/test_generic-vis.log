@@ -1,0 +1,23 @@
+---- vis / ericw-tools 2.0.0-alpha8 ----
+
+--- Options Summary ---
+
+LoadBSPFile: 'test_generic.bsp'
+BSP is version Quake II BSP IBSP:38
+using gamedir: '/home/null/_01_projects/market_demo/sui-template'
+WARNING: failed to find basedir '/home/null/_01_projects/market_demo/baseq2'
+LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
+INFO: using built-in palette.
+    57 clusters
+   168 portals
+Calculating Base Vis:
+Calculating Full Vis:
+Expanding clusters...
+average clusters visible: 53
+c_noclip: 0
+c_chains: 41771
+visdatasize:462  compressed from 456
+Writing test_generic.bsp as Quake II BSP IBSP:38
+0.01s elapsed
+
+

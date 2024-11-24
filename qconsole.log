@@ -1,0 +1,116 @@
+2024-11-05 21:13:06 ]log_developer
+2024-11-05 21:13:06 "log_developer" is "0" (default)
+2024-11-05 21:13:09 ]log_developer 1
+2024-11-05 21:13:11 Client command: setinfo "chat" ""
+2024-11-05 21:13:11 Client command: setinfo "chat" ""
+2024-11-05 21:13:11 Player: info 0:chat
+2024-11-05 21:13:11 SETINFO Player: chat=
+2024-11-05 21:13:12 Client command: setinfo "chat" "1"
+2024-11-05 21:13:12 Client command: setinfo "chat" "1"
+2024-11-05 21:13:12 Player: info 0:chat
+2024-11-05 21:13:12 SETINFO Player: chat=1
+2024-11-05 21:13:18 Client command: setinfo "chat" ""
+2024-11-05 21:13:18 Client command: setinfo "chat" ""
+2024-11-05 21:13:18 Player: info 0:chat
+2024-11-05 21:13:18 SETINFO Player: chat=
+2024-11-05 21:13:19 Client command: setinfo "chat" "2"
+2024-11-05 21:13:19 Client command: setinfo "chat" "2"
+2024-11-05 21:13:19 Player: info 0:chat
+2024-11-05 21:13:19 SETINFO Player: chat=2
+2024-11-05 21:13:20 Client command: setinfo "chat" ""
+2024-11-05 21:13:20 Client command: setinfo "chat" ""
+2024-11-05 21:13:20 Player: info 0:chat
+2024-11-05 21:13:20 SETINFO Player: chat=
+2024-11-05 21:13:22 Client command: setinfo "chat" "2"
+2024-11-05 21:13:22 Client command: setinfo "chat" "2"
+2024-11-05 21:13:22 Player: info 0:chat
+2024-11-05 21:13:22 SETINFO Player: chat=2
+2024-11-05 21:13:45 Client command: setinfo "chat" ""
+2024-11-05 21:13:45 Client command: setinfo "chat" ""
+2024-11-05 21:13:45 Player: info 0:chat
+2024-11-05 21:13:45 SETINFO Player: chat=
+2024-11-05 21:13:45 Client command: setinfo "chat" "1"
+2024-11-05 21:13:45 Client command: setinfo "chat" "1"
+2024-11-05 21:13:45 Player: info 0:chat
+2024-11-05 21:13:45 SETINFO Player: chat=1
+2024-11-05 21:13:48 ]compile
+2024-11-05 21:13:48 Source directory: src/
+2024-11-05 21:13:48 FTEQCC: git-6446-3adec5d0a-dirty (%cs)
+2024-11-05 21:13:48 Source file: src/progs.src
+2024-11-05 21:13:48 nothing to write
+2024-11-05 21:13:48 Source directory: src/
+2024-11-05 21:13:48 -------------------------------------
+2024-11-05 21:13:48 Source file: src/cl_progs.src
+2024-11-05 21:13:48 outputfile: csprogs.dat
+2024-11-05 21:13:48 compiling src/cl_defs.qc
+2024-11-05 21:13:48 compiling src/sh_customdefs.qc
+2024-11-05 21:13:48 compiling src/cl_customdefs.qc
+2024-11-05 21:13:48 compiling src/sui_sys.qc
+2024-11-05 21:13:48 compiling src/cl_menu.qc
+2024-11-05 21:13:48 compiling src/cl_player.qc
+2024-11-05 21:13:48 compiling src/cl_hud.qc
+2024-11-05 21:13:48 compiling src/cl_main.qc
+2024-11-05 21:13:48 Writing csprogs.dat
+2024-11-05 21:13:48 Compile finished: csprogs.dat (fte format)
+2024-11-05 21:13:48 Done. 0 warnings
+2024-11-05 21:13:48 Source directory: src/
+2024-11-05 21:13:48 -------------------------------------
+2024-11-05 21:13:48 Source file: src/sv_progs.src
+2024-11-05 21:13:48 outputfile: qwprogs.dat
+2024-11-05 21:13:48 compiling src/sv_defs.qc
+2024-11-05 21:13:48 compiling src/sh_customdefs.qc
+2024-11-05 21:13:48 compiling src/sv_customdefs.qc
+2024-11-05 21:13:48 compiling src/sv_combat.qc
+2024-11-05 21:13:48 compiling src/sv_enemies.qc
+2024-11-05 21:13:48 compiling src/sv_triggers.qc
+2024-11-05 21:13:48 compiling src/sv_player.qc
+2024-11-05 21:13:48 compiling src/sv_main.qc
+2024-11-05 21:13:48 Writing qwprogs.dat
+2024-11-05 21:13:48 Compile finished: qwprogs.dat (fte format)
+2024-11-05 21:13:48 Done. 0 warnings
+2024-11-05 21:13:48 Source directory: src/
+2024-11-05 21:13:48 -------------------------------------
+2024-11-05 21:13:48 Source file: src/m_progs.src
+2024-11-05 21:13:48 outputfile: menu.dat
+2024-11-05 21:13:48 compiling src/m_defs.qc
+2024-11-05 21:13:48 compiling src/sui_sys.qc
+2024-11-05 21:13:48 compiling src/m_menu.qc
+2024-11-05 21:13:48 compiling src/m_main.qc
+2024-11-05 21:13:48 Writing menu.dat
+2024-11-05 21:13:48 Compile finished: menu.dat (fte format)
+2024-11-05 21:13:48 Done. 0 warnings
+2024-11-05 21:13:48 Compile took 0.213380 secs
+2024-11-05 21:13:53 Client command: setinfo "chat" ""
+2024-11-05 21:13:53 Client command: setinfo "chat" ""
+2024-11-05 21:13:53 Player: info 0:chat
+2024-11-05 21:13:53 SETINFO Player: chat=
+2024-11-05 21:13:54 Client command: setinfo "chat" "1"
+2024-11-05 21:13:54 Client command: setinfo "chat" "1"
+2024-11-05 21:13:54 Player: info 0:chat
+2024-11-05 21:13:54 SETINFO Player: chat=1
+2024-11-05 21:13:55 Client command: setinfo "chat" ""
+2024-11-05 21:13:55 Client command: setinfo "chat" ""
+2024-11-05 21:13:55 Player: info 0:chat
+2024-11-05 21:13:55 SETINFO Player: chat=
+2024-11-05 21:13:58 Client command: setinfo "chat" "1"
+2024-11-05 21:13:58 Client command: setinfo "chat" "1"
+2024-11-05 21:13:58 Player: info 0:chat
+2024-11-05 21:13:58 SETINFO Player: chat=1
+2024-11-05 21:14:01 Client command: setinfo "chat" ""
+2024-11-05 21:14:01 Client command: setinfo "chat" ""
+2024-11-05 21:14:01 Player: info 0:chat
+2024-11-05 21:14:01 SETINFO Player: chat=
+2024-11-05 21:14:02 Client command: setinfo "chat" "2"
+2024-11-05 21:14:02 Client command: setinfo "chat" "2"
+2024-11-05 21:14:02 Player: info 0:chat
+2024-11-05 21:14:02 SETINFO Player: chat=2
+2024-11-05 21:14:04 Server ended
+2024-11-05 21:14:04 Player has left the game.
+2024-11-05 21:14:04 Client "Player" removed
+2024-11-05 21:14:04 Clearing memory
+2024-11-05 21:14:04 Couldn't load sound/ambience/wind2.wav
+2024-11-05 21:14:07 Clearing memory
+2024-11-05 21:14:07 model "maps/test.bsp" no longer needed
+2024-11-05 21:14:07 model "" no longer needed
+2024-11-05 21:14:07 model "models/testplayer.iqm" no longer needed
+2024-11-05 21:14:07 Destroyed 23/48 images
