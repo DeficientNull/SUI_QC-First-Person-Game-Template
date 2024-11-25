@@ -5,11 +5,11 @@
     "chop" was set to "1" (from game target)
     "maxedges" was set to "0" (from game target)
 
-Input file: /home/null/_01_projects/market_demo/sui-template/maps/test_generic_final-compile.map
-Output file: /home/null/_01_projects/market_demo/sui-template/maps/test_generic_final.bsp
+Input file: /home/null/_01_projects/FPS Template/sui-template/maps/test_generic_final-compile.map
+Output file: /home/null/_01_projects/FPS Template/sui-template/maps/test_generic_final.bsp
 
-using gamedir: '/home/null/_01_projects/market_demo/sui-template'
-WARNING: failed to find basedir '/home/null/_01_projects/market_demo/baseq2'
+using gamedir: '/home/null/_01_projects/FPS Template/sui-template'
+WARNING: failed to find basedir '/home/null/_01_projects/FPS Template/baseq2'
 LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
 INFO: using built-in palette.
 WARNING: Couldn't locate texture for skip
@@ -107,8 +107,8 @@ count   lump name    byte size
       1 areaportals           8
         lightdata             0
         visdata               0
-        entdata            1255
+        entdata            1281
 
-0.119s seconds elapsed
+0.113s seconds elapsed
 
 

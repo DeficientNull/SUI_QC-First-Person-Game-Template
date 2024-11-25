@@ -1,8 +1,8 @@
 ---- light / ericw-tools 2.0.0-alpha8 ----
 LoadBSPFile: 'test_generic_final.bsp'
 BSP is version Quake II BSP IBSP:38
-using gamedir: '/home/null/_01_projects/market_demo/sui-template'
-WARNING: failed to find basedir '/home/null/_01_projects/market_demo/baseq2'
+using gamedir: '/home/null/_01_projects/FPS Template/sui-template'
+WARNING: failed to find basedir '/home/null/_01_projects/FPS Template/baseq2'
 LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
 INFO: using built-in palette.
 AddTextureName: WARNING: can't find meta data for checkers
@@ -60,7 +60,7 @@ Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing test_generic_final.bsp as Quake II BSP IBSP:38
-7.057s seconds elapsed
+7.282s seconds elapsed
 0 empty lightmaps
 
 

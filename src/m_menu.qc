@@ -233,7 +233,7 @@ void() help_menu =
 void() main_menu =
 {
 	sui_set_align([SUI_ALIGN_CENTER, SUI_ALIGN_START]);
-	sui_text([0, 64], MENU_TEXT_LARGE, "Market Demo", [1, 1, 1], 1, 0);
+	sui_text([0, 64], MENU_TEXT_LARGE, "FPS Template", [1, 1, 1], 1, 0);
 	
 	vector pos = [0, -24];
 	vector size = [120, 140];
@@ -250,7 +250,7 @@ void() main_menu =
 	my_button("mm_settings", [0, 8 + 24], [size_x - 16, 20], "Settings") ? current_menu = MENU_SETTINGS : 0;
 	my_button("mm_help", [0, 8 + 48], [size_x - 16, 20], "Help") ? current_menu = MENU_HELP : 0;
 	sui_set_align([SUI_ALIGN_CENTER, SUI_ALIGN_END]);
-	my_button("mm_disconnect", [0, -32], [size_x - 16, 20], "Disconnect") ? localcmd("disconnect\n") : 0;
+	my_button("mm_disconnect", [0, -32], [size_x - 16, 20], "Main Menu") ? localcmd("disconnect\n") : 0;
 	sui_set_align([SUI_ALIGN_CENTER, SUI_ALIGN_END]);
 	my_button("mm_quit", [0, -8], [size_x - 16, 20], "Quit") ? localcmd("quit\n") : 0;
 	sui_pop_frame();	

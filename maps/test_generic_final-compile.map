@@ -2627,11 +2627,6 @@
 }
 // entity 6
 {
-"classname" "info_player_start"
-"origin" "864 768 -472"
-}
-// entity 7
-{
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "ware_window"
@@ -2801,7 +2796,7 @@
 ( 644 1048 -328 ) ( 644 1048 -327 ) ( 644 1049 -328 ) wall128gr [ 0 1 0 -56 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 8
+// entity 7
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -2972,7 +2967,7 @@
 ( 420 1048 -328 ) ( 420 1048 -327 ) ( 420 1049 -328 ) wall128gr [ 0 1 0 -56 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 9
+// entity 8
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3143,7 +3138,7 @@
 ( 644 1048 -168 ) ( 644 1048 -167 ) ( 644 1049 -168 ) wall128gr [ 0 1 0 -56 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 10
+// entity 9
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3314,13 +3309,13 @@
 ( 420 1048 -168 ) ( 420 1048 -167 ) ( 420 1049 -168 ) wall128gr [ 0 1 0 -56 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 11
+// entity 10
 {
 "classname" "light"
 "origin" "456 1000 -488"
 "_surface" "lighty"
 }
-// entity 12
+// entity 11
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3400,7 +3395,7 @@
 ( 368 -872 -304 ) ( 368 -872 -303 ) ( 368 -871 -304 ) wall128gr [ 0 1 0 112 ] [ 0 0 -1 216 ] 0 1 1
 }
 }
-// entity 13
+// entity 12
 {
 "classname" "func_wall"
 "skin" "-16"
@@ -3415,7 +3410,7 @@
 ( 368 -864 -480 ) ( 368 -864 -479 ) ( 368 -863 -480 ) clip [ 0 1 0 48 ] [ 0 0 -1 16 ] 0 1 1 0 128 0
 }
 }
-// entity 14
+// entity 13
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3496,7 +3491,7 @@
 ( -272 264 -520 ) ( -272 264 -519 ) ( -272 265 -520 ) wall128gr [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 15
+// entity 14
 {
 "classname" "func_wall"
 "skin" "-16"
@@ -3511,7 +3506,7 @@
 ( -272 272 -696 ) ( -272 272 -695 ) ( -272 273 -696 ) clip [ 0 1 0 0 ] [ 0 0 -1 -8 ] 0 1 1 0 128 0
 }
 }
-// entity 16
+// entity 15
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3537,7 +3532,7 @@
 ( 474 1036 -384 ) ( 474 1036 -383 ) ( 474 1037 -384 ) wall128gr [ 0 1 0 -76 ] [ 0 0 -1 -24 ] 0 1 1
 }
 }
-// entity 17
+// entity 16
 {
 "classname" "light"
 "origin" "472 1032 -408"
@@ -3545,7 +3540,7 @@
 "delay" "2"
 "_tb_group" "15"
 }
-// entity 18
+// entity 17
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3572,7 +3567,7 @@
 ( -278 140 -352 ) ( -278 140 -351 ) ( -278 141 -352 ) wall128gr [ 0 1 0 52 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 19
+// entity 18
 {
 "classname" "light"
 "origin" "-280 136 -376"
@@ -3580,7 +3575,7 @@
 "delay" "2"
 "_tb_group" "16"
 }
-// entity 20
+// entity 19
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3607,7 +3602,7 @@
 ( -566 460 -608 ) ( -566 460 -607 ) ( -566 461 -608 ) wall128gr [ 0 1 0 -12 ] [ 0 0 -1 -248 ] 0 1 1
 }
 }
-// entity 21
+// entity 20
 {
 "classname" "light"
 "origin" "-568 456 -632"
@@ -3615,7 +3610,7 @@
 "delay" "2"
 "_tb_group" "17"
 }
-// entity 22
+// entity 21
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3642,7 +3637,7 @@
 ( -358 412 -528 ) ( -358 412 -527 ) ( -358 413 -528 ) wall128gr [ 0 1 0 -220 ] [ 0 0 -1 -168 ] 0 1 1
 }
 }
-// entity 23
+// entity 22
 {
 "classname" "light"
 "origin" "-360 408 -552"
@@ -3650,7 +3645,7 @@
 "delay" "2"
 "_tb_group" "18"
 }
-// entity 24
+// entity 23
 {
 "classname" "light"
 "origin" "-928 400 -672"
@@ -3658,7 +3653,7 @@
 "delay" "2"
 "color" "0 0 0"
 }
-// entity 25
+// entity 24
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -3685,7 +3680,7 @@
 ( -1494 1132 -576 ) ( -1494 1132 -575 ) ( -1494 1133 -576 ) wall128gr [ 0 1 0 -172 ] [ 0 0 -1 -216 ] 0 1 1
 }
 }
-// entity 26
+// entity 25
 {
 "classname" "light"
 "origin" "-1496 1128 -600"
@@ -3693,7 +3688,7 @@
 "delay" "2"
 "_tb_group" "19"
 }
-// entity 27
+// entity 26
 {
 "classname" "func_wall"
 "skin" "-16"
@@ -3706,4 +3701,10 @@
 ( -224 592 -720 ) ( -223 592 -720 ) ( -224 592 -719 ) clip [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1 0 128 0
 ( -224 592 -720 ) ( -224 592 -719 ) ( -224 593 -720 ) clip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1 0 128 0
 }
+}
+// entity 27
+{
+"classname" "misc_model"
+"origin" "824 1048 -488"
+"model" "models/testplayer.iqm"
 }

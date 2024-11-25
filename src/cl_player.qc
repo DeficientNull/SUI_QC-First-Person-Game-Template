@@ -1,5 +1,4 @@
 var int player_movespeed = 220;
-var int player_crouchspeed = 110;  // Half of normal movement speed while crouching
 var float flashlight_id = 0;  // Store the light ID
 var int autocvar_flashlight;
 
