@@ -9,5 +9,6 @@ sv_player.qc
 sv_main.qc
 sv_misc_model.qc
 sv_func_button.qc
+sv_func_rotate.qc
 sv_func_door.qc
 

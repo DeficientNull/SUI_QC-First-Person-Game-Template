@@ -82,3 +82,13 @@ void(entity removing) player_chain_remove =
 	removing.player_chain_next = world;
 	removing.player_chain_prev = world;
 };
+
+//used to keep track of self correctly during targeting
+void do_as_self(entity target, void() func)
+{
+    entity oldself = self;
+    self = target;
+    func();
+    self = oldself;
+}
+

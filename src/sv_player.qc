@@ -161,7 +161,6 @@ void() ClientDisconnect =
 
 void() SetNewParms =
 {
-	self.flags = EF_NOSHADOW;
 };
 
 void() SetChangeParms =
@@ -195,3 +194,4 @@ void() SV_RunClientCommand =
 {
 	runstandardplayerphysics(self);
 };
+

@@ -54,3 +54,25 @@
 [
     _light_lev(integer) : "Base Light Level" : 300 : "Base light level for pulsing/flickering"
 ]
+
+@SolidClass base(Targetname) = func_rotate : "Rotating brush entity"
+[
+    speedx(float) : "Speed X" : 0 : "Rotation speed around X axis"
+    speedy(float) : "Speed Y" : 0 : "Rotation speed around Y axis"
+    speedz(float) : "Speed Z" : 0 : "Rotation speed around Z axis"
+    wait(float) : "Wait" : 0 : "Wait behavior. Set to -1 to only rotate when triggered"
+    target(target_destination) : "Target" : : "Entity to trigger when used"
+]
+
+@SolidClass base(Targetname) = func_button : "Interactive button entity"
+[
+    button_speed_x(float) : "Speed X" : 0 : "Movement speed along X axis"
+    button_speed_y(float) : "Speed Y" : 0 : "Movement speed along Y axis"
+    button_speed_z(float) : "Speed Z" : 0 : "Movement speed along Z axis"
+    wait_time(float) : "Wait Time" : 1 : "Time before button returns to original position"
+    button_lip(float) : "Lip" : 4 : "Button travel distance"
+    target(target_destination) : "Target" : : "Entity to trigger when pressed"
+    noise(sound) : "Press Sound" : : "Sound to play when button is pressed"
+    noise1(sound) : "Trigger Sound" : : "Sound to play when button triggers"
+    noise2(sound) : "Return Sound" : : "Sound to play when button returns"
+]
