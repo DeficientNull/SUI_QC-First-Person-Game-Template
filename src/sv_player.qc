@@ -23,10 +23,31 @@ const float CROUCHING_VIEWOFS = 32;
 
 void() PlayerUse = 
 {
-	if (self.button4) 
-	{
-		print("Player has pressed the use key ");
-	}
+    if (self.button4) 
+    {
+        vector source;
+        vector end;
+        
+        makevectors(self.v_angle);
+        source = self.origin + self.view_ofs;  // Adjust for player's view height
+        end = source + v_forward * 96;    // Use range of 64 units
+        
+        traceline(source, end, MOVE_NORMAL, self);
+        
+        if (trace_fraction < 1.0)
+        {
+            entity found = trace_ent;
+            if (found.use != __NULL__)
+            {
+		do_as_self(found, found.use);
+                //print("Used entity at distance: ");
+                //print(ftos(trace_fraction * 96));
+                //print("\n");
+            } else {
+		print("use could not find entity");
+	    }
+        }
+    }
 }
 
 void() CheckImpulses =
@@ -136,7 +157,6 @@ void() PlayerSpawn =
 	self.classname = "player";
 	self.solid = SOLID_SLIDEBOX;
 	//setmodel(self, "models/testplayer.iqm");
-	self.flags = EF_NOSHADOW;
 	self.movetype = MOVETYPE_WALK;
 	self.health = 100;
 	setorigin(self, get_spawn_point());
@@ -165,12 +185,10 @@ void() SetNewParms =
 
 void() SetChangeParms =
 {
-	self.flags = EF_NOSHADOW;
 };
 
 void() info_player_start =
 {
-	self.flags = EF_NOSHADOW;
 };
 
 void(float elapsedtime) SV_PausedTic =
@@ -194,4 +212,3 @@ void() SV_RunClientCommand =
 {
 	runstandardplayerphysics(self);
 };
-

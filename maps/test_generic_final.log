@@ -13,104 +13,104 @@ WARNING: failed to find basedir '/home/null/_01_projects/FPS Template/baseq2'
 LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
 INFO: using built-in palette.
 WARNING: Couldn't locate texture for skip
-     31 entities
+     29 entities
      14 unique textures
-    839 texinfos
-    878 unique planes
+    828 texinfos
+    860 unique planes
 
 INFO: world extents calculated to 4184 units
-      388 brushes
+      386 brushes
         2 utility brushes removed
        10 brushes offset by origins
-    2,333 sides
+    2,321 sides
        22 side bevels
 
 Processing map...
-    374 SOLID brushes
-    374 brushes total
-    2,241 visible sides
-INFO: calculating BSP for 374 brushes with 2241 sides
-chopped 374 brushes into 374
+    372 SOLID brushes
+    372 brushes total
+    2,229 visible sides
+INFO: calculating BSP for 372 brushes with 2229 sides
+chopped 372 brushes into 372
     23 brushes created from the chompening
-      374 brushes
-    2,218 visible faces
+      372 brushes
+    2,206 visible faces
        23 non-visible faces
-    5,085 nodes
-    3,823 expensive split nodes
+    5,075 nodes
+    3,813 expensive split nodes
     1,262 mid-split nodes
-    5,086 leaves
-    2,480 SOLID leafs
-    2,606 EMPTY leafs
-    5,086 leafs total
+    5,076 leaves
+    2,478 SOLID leafs
+    2,598 EMPTY leafs
+    5,076 leafs total
     23 max tree height
     16 avg tree height
-    20,594 tree portals
+    20,531 tree portals
     1,143 outside leaves
     0 detail filled leafs
-      374 brushes
-    1,099 visible faces
-    1,142 non-visible faces
-    1,638 nodes
+      372 brushes
+    1,089 visible faces
+    1,140 non-visible faces
+    1,628 nodes
       659 non-visible nodes
-    1,638 expensive split nodes
-    1,639 leaves
-      775 SOLID leafs
-      864 EMPTY leafs
-    1,639 leafs total
+    1,628 expensive split nodes
+    1,629 leaves
+      773 SOLID leafs
+      856 EMPTY leafs
+    1,629 leafs total
     19 max tree height
     12 avg tree height
-    7,791 tree portals
+    7,726 tree portals
     415 outside leaves
     0 detail filled leafs
     1 areas
     1 area portals
-    7,791 tree portals
-    4,440 sides visible
-    2,220 makefaces
-      515 merged
+    7,726 tree portals
+    4,398 sides visible
+    2,199 makefaces
+      510 merged
       539 subdivided
     713 nodes pruned
-      449 player-occupiable leaves
-      449 clusters of leaves
-    1,241 vis portals
-    449 EMPTY leafs
-    477 SOLID leafs
-    926 leafs total
+      441 player-occupiable leaves
+      441 clusters of leaves
+    1,199 vis portals
+    441 EMPTY leafs
+    475 SOLID leafs
+    916 leafs total
     19 max tree height
     12 avg tree height
-    2,052 edges added by tjunctions
-    2,241 faces optimized through MWT
-    6,533 triangles computed from MWT
-      551 faces created via optimization of MWT triangles
-    6,063 edges
-    2,795 faces
-      374 total brushes
-    2,247 total brush sides
-      705 total leaf brushes
-      474 optimized brush side texinfos
+    2,036 edges added by tjunctions
+    2,225 faces optimized through MWT
+    6,485 triangles computed from MWT
+      542 faces created via optimization of MWT triangles
+    6,014 edges
+    2,770 faces
+      372 total brushes
+    2,235 total brush sides
+      703 total leaf brushes
+      472 optimized brush side texinfos
 Writing test_generic_final.bsp as Quake II BSP IBSP:38
 Wrote test_generic_final.bsp
 
 count   lump name    byte size 
       7 models              336
-    729 planes            14580
-   3275 vertexes          39300
-    985 nodes             27580
-    524 texinfos          39824
-   2861 faces             57220
-    993 leafs             27804
-   3384 leaffaces          6768
-    737 leafbrushes        1474
-   6196 edges             24784
-  12390 surfedges         49560
-    388 brushes            4656
-   2355 brushsides         9420
+    715 planes            14300
+   3251 vertexes          39012
+    975 nodes             27300
+    515 texinfos          39140
+   2836 faces             56720
+    983 leafs             27524
+   3348 leaffaces          6696
+    735 leafbrushes        1470
+   6147 edges             24588
+  12292 surfedges         49168
+    386 brushes            4632
+   2343 brushsides         9372
       2 areas                16
       1 areaportals           8
         lightdata             0
         visdata               0
-        entdata            1799
+        entdata            1723
 
-0.113s seconds elapsed
+0.135s seconds elapsed
 
 

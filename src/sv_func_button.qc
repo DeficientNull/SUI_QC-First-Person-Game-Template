@@ -18,14 +18,7 @@
 .string target;        // Target entity to trigger
 .string targetname;
 
-//used to keep track of self correctly during targeting
-void do_as_self(entity target, void() func)
-{
-    entity oldself = self;
-    self = target;
-    func();
-    self = oldself;
-}
+
 
 void() button_return =
 {
@@ -80,9 +73,13 @@ void() button_fire =
 
 void() button_use =
 {
-    if (self.button_state == 2 || self.button_state == 1)
-        return;
     
+    button_fire();
+
+    if (self.button_state == 2)
+    {
+        button_fire();
+    }
     self.button_state = 2;
     
     print("button used");
@@ -90,7 +87,6 @@ void() button_use =
     if (self.noise)
         sound(self, CHAN_VOICE, self.noise, 1, ATTN_NORM);
 
-    button_fire();
 };
 
 void() button_touch =
