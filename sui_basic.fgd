@@ -76,3 +76,28 @@
     noise1(sound) : "Trigger Sound" : : "Sound to play when button triggers"
     noise2(sound) : "Return Sound" : : "Sound to play when button returns"
 ]
+
+@SolidClass base(BaseBrush, Angles, Target, TargetName) = func_door : "Sliding door"
+[
+	wait(float) : "Delay before closing (in seconds)" : "3"
+	lip(float) : "Amount of door to leave sticking out of the wall (in units)" : "8"
+	speed(float) : "Movement speed in units per second" : "50"
+	spawnflags(flags) =
+	[
+		1 : "Start open" : 0
+		2 : "Usable" : 0
+	]
+]
+
+@SolidClass base(BaseBrush, Angles, Target, TargetName) = func_door_rotating : "Rotating door"
+[
+    distance(float) : "Rotation angle (degrees)" : "90"
+    wait(float) : "Delay before closing (in seconds)" : "3"
+    speed(float) : "Rotation speed in degrees per second" : "100"
+    target(target_destination) : "Origin brush name" : : "Name of the info_null entity to use as rotation origin. If not specified, rotates around its own origin."
+    spawnflags(flags) =
+    [
+        1 : "Start open" : 0
+        2 : "Usable" : 0
+    ]
+]

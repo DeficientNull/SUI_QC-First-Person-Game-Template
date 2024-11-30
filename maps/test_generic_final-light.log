@@ -6,18 +6,18 @@ WARNING: failed to find basedir '/home/null/_01_projects/FPS Template/baseq2'
 LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
 INFO: using built-in palette.
 AddTextureName: WARNING: can't find meta data for checkers
-AddTextureName: WARNING: can't find meta data for wall64a
 AddTextureName: WARNING: can't find meta data for wall128gr
-AddTextureName: WARNING: can't find meta data for door
+AddTextureName: WARNING: can't find meta data for wall64a
 AddTextureName: WARNING: can't find meta data for sky25_64
+AddTextureName: WARNING: can't find meta data for lighty
+AddTextureName: WARNING: can't find meta data for door
 AddTextureName: WARNING: can't find meta data for floor
 AddTextureName: WARNING: can't find meta data for wall32
 AddTextureName: WARNING: can't find meta data for ceiling
 AddTextureName: WARNING: can't find meta data for grid16
 AddTextureName: WARNING: can't find meta data for elec_light
-AddTextureName: WARNING: can't find meta data for lighty
 Loading extended texinfo flags from test_generic_final.texinfo.json...
-19 entities read, 8 are lights.
+23 entities read, 9 are lights.
 
 --- Options Summary ---
     "range" was set to "1.000000" (from game target)
@@ -42,24 +42,24 @@ Loading extended texinfo flags from test_generic_final.texinfo.json...
 
 Embree_TraceInit: Embree version: 3.13.1
 Embree_TraceInit: 
-	115 sky faces
-	2655 solid faces
+	147 sky faces
+	3799 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 8 initial lights
+SetupLights: 9 initial lights
 Creating surface lights for texture "elec_light" from template at (584 328 -440)
 Creating surface lights for texture "lighty" from template at (584 328 -488)
-SetupLights: 8 after surface lights
-SetupLights: 8 after jittering
-Final count: 8 lights, 66 suns in use.
+SetupLights: 9 after surface lights
+SetupLights: 9 after jittering
+Final count: 9 lights, 66 suns in use.
        48 dirtmap vectors
-151 surface light points in use.
-lightmap size (total): 452280
+162 surface light points in use.
+lightmap size (total): 515760
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing test_generic_final.bsp as Quake II BSP IBSP:38
-7.648s seconds elapsed
+7.262s seconds elapsed
 0 empty lightmaps
 
 

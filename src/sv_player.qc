@@ -30,7 +30,7 @@ void() PlayerUse =
         
         makevectors(self.v_angle);
         source = self.origin + self.view_ofs;  // Adjust for player's view height
-        end = source + v_forward * 96;    // Use range of 64 units
+        end = source + v_forward * 64;    // Use range of 64 units
         
         traceline(source, end, MOVE_NORMAL, self);
         
