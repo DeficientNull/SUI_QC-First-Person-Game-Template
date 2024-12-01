@@ -40,6 +40,7 @@ void() PlayerUse =
             if (found.use != __NULL__)
             {
 		do_as_self(found, found.use);
+		activator = self;
                 //print("Used entity at distance: ");
                 //print(ftos(trace_fraction * 96));
                 //print("\n");

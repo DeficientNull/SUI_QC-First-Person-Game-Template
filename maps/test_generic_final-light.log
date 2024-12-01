@@ -17,7 +17,7 @@ AddTextureName: WARNING: can't find meta data for ceiling
 AddTextureName: WARNING: can't find meta data for grid16
 AddTextureName: WARNING: can't find meta data for elec_light
 Loading extended texinfo flags from test_generic_final.texinfo.json...
-27 entities read, 12 are lights.
+28 entities read, 13 are lights.
 
 --- Options Summary ---
     "range" was set to "1.000000" (from game target)
@@ -43,23 +43,23 @@ Loading extended texinfo flags from test_generic_final.texinfo.json...
 Embree_TraceInit: Embree version: 3.13.1
 Embree_TraceInit: 
 	143 sky faces
-	5195 solid faces
+	5223 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
-SetupLights: 12 initial lights
+SetupLights: 13 initial lights
 Creating surface lights for texture "elec_light" from template at (584 328 -440)
 Creating surface lights for texture "lighty" from template at (584 328 -488)
-SetupLights: 12 after surface lights
-SetupLights: 12 after jittering
-Final count: 12 lights, 66 suns in use.
+SetupLights: 13 after surface lights
+SetupLights: 13 after jittering
+Final count: 13 lights, 66 suns in use.
        48 dirtmap vectors
-195 surface light points in use.
-lightmap size (total): 551544
+206 surface light points in use.
+lightmap size (total): 552456
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing test_generic_final.bsp as Quake II BSP IBSP:38
-9.778s seconds elapsed
+12.747s seconds elapsed
 0 empty lightmaps
 
 

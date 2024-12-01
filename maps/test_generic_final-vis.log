@@ -9,16 +9,16 @@ using gamedir: '/home/null/_01_projects/FPS Template/sui-template'
 WARNING: failed to find basedir '/home/null/_01_projects/FPS Template/baseq2'
 LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
 INFO: using built-in palette.
-   793 clusters
-  2369 portals
+   801 clusters
+  2408 portals
 Calculating Base Vis:
 Calculating Full Vis:
 Expanding clusters...
-average clusters visible: 503
+average clusters visible: 509
 c_noclip: 0
 c_chains: 0
-visdatasize:66919  compressed from 79300
+visdatasize:68266  compressed from 80901
 Writing test_generic_final.bsp as Quake II BSP IBSP:38
-0.09s elapsed
+0.10s elapsed
 
 

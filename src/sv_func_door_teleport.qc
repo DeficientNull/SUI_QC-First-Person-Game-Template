@@ -1,9 +1,8 @@
 .string target;        // Target destination entity
 .string targetname;    // For targeting this door
 
-entity activator;
-
-.vector destination_origin
+vector user_origin;
+.vector destination_origin;
 
 void() func_door_teleport_use =
 {
@@ -18,7 +17,6 @@ void() func_door_teleport_use =
     // do sound
     if (self.noise)
         sound(self, CHAN_BODY, self.noise, 10, ATTN_NORM);
-    self.enemy = activator;
     // Teleport the activator to destination
     setorigin(activator, dest.origin);
     activator.angles = dest.angles;  // Also set view angles

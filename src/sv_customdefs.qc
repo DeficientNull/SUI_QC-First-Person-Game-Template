@@ -92,6 +92,9 @@ void do_as_self(entity target, void() func)
     self = oldself;
 }
 
+// activator stuff
+// required for entities that need a local reference to another
+entity activator;
 
 //func_door and func_plat setup
 //code generously contributed by Jaycie Erysdren 
