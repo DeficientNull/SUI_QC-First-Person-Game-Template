@@ -12,4 +12,4 @@ sv_func_button.qc
 sv_func_rotate.qc
 sv_func_door.qc
 sv_func_door_rotating.qc
-
+sv_func_door_teleport.qc

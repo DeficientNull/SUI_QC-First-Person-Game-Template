@@ -19,6 +19,9 @@ static enumflags {
 .vector rotateaxis;
 .vector rotation_origin;  // Store the rotation origin point
 
+// targetting
+.string targetname;
+
 .float is_moving;
 
 void() func_door_rotating_setup =
