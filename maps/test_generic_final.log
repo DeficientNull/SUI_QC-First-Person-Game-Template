@@ -13,7 +13,7 @@ WARNING: failed to find basedir '/home/null/_01_projects/FPS Template/baseq2'
 LoadPCXPalette: Failed to load 'pics/colormap.pcx'.
 INFO: using built-in palette.
 WARNING: Couldn't locate texture for skip
-       56 entities
+       58 entities
        14 unique textures
     1,782 texinfos
     1,236 unique planes
@@ -27,85 +27,85 @@ INFO: world extents calculated to 4184 units
 
 Processing map...
     141 SOLID | DETAIL brushes
-    522 SOLID brushes
-    663 brushes total
-    3,951 visible sides
-INFO: calculating BSP for 663 brushes with 3951 sides
-chopped 663 brushes into 663
+    521 SOLID brushes
+    662 brushes total
+    3,945 visible sides
+INFO: calculating BSP for 662 brushes with 3945 sides
+chopped 662 brushes into 662
     25 brushes created from the chompening
-      663 brushes
-    3,930 visible faces
+      662 brushes
+    3,924 visible faces
        25 non-visible faces
-    7,204 nodes
-    5,599 expensive split nodes
+    7,200 nodes
+    5,595 expensive split nodes
     1,605 mid-split nodes
-    7,205 leaves
+    7,201 leaves
       161 SOLID | DETAIL leafs
-    3,199 SOLID leafs
-    3,845 EMPTY leafs
-    7,205 leafs total
+    3,198 SOLID leafs
+    3,842 EMPTY leafs
+    7,201 leafs total
     29 max tree height
     16 avg tree height
     2 tiny portals
-    29,804 tree portals
+    29,780 tree portals
     1,375 outside leaves
     8 detail filled leafs
-      663 brushes
-    2,388 visible faces
-    1,567 non-visible faces
-    2,671 nodes
+      662 brushes
+    2,386 visible faces
+    1,563 non-visible faces
+    2,669 nodes
       687 non-visible nodes
-    2,671 expensive split nodes
-    2,672 leaves
+    2,669 expensive split nodes
+    2,670 leaves
       141 SOLID | DETAIL leafs
-    1,049 SOLID leafs
-    1,482 EMPTY leafs
-    2,672 leafs total
+    1,048 SOLID leafs
+    1,481 EMPTY leafs
+    2,670 leafs total
     26 max tree height
     14 avg tree height
     1 tiny portals
-    12,991 tree portals
+    12,981 tree portals
     465 outside leaves
     6 detail filled leafs
     1 areas
     1 area portals
     1 tiny portals
-    12,991 tree portals
-    8,890 sides visible
-    4,445 makefaces
+    12,981 tree portals
+    8,878 sides visible
+    4,439 makefaces
       851 merged
       579 subdivided
     741 nodes pruned
-    1,011 player-occupiable leaves
-      794 clusters of leaves
+    1,010 player-occupiable leaves
+      793 clusters of leaves
     2,369 vis portals
       102 SOLID | DETAIL leafs
-    1,011 EMPTY leafs
-      818 SOLID leafs
-    1,931 leafs total
+    1,010 EMPTY leafs
+      817 SOLID leafs
+    1,929 leafs total
     24 max tree height
     14 avg tree height
      4,177 edges added by tjunctions
-     4,062 faces optimized through MWT
-    12,317 triangles computed from MWT
+     4,056 faces optimized through MWT
+    12,305 triangles computed from MWT
      1,171 faces created via optimization of MWT triangles
-    11,558 edges
-     5,344 faces
-      663 total brushes
-    4,317 total brush sides
-    1,133 total leaf brushes
+    11,546 edges
+     5,338 faces
+      662 total brushes
+    4,311 total brush sides
+    1,132 total leaf brushes
       756 optimized brush side texinfos
 Writing test_generic_final.bsp as Quake II BSP IBSP:38
 Wrote test_generic_final.bsp
 
 count   lump name    byte size 
-      9 models              432
+     10 models              480
    1206 planes            24120
    5742 vertexes          68904
-   2002 nodes             56056
+   2006 nodes             56168
    1330 texinfos         101080
    5422 faces            108440
-   2012 leafs             56336
+   2017 leafs             56476
    6521 leaffaces         13042
    1167 leafbrushes        2334
   11715 edges             46860
@@ -116,8 +116,8 @@ count   lump name    byte size
       1 areaportals           8
         lightdata             0
         visdata               0
-        entdata            2165
+        entdata            2317
 
-0.201s seconds elapsed
+0.228s seconds elapsed
 
 

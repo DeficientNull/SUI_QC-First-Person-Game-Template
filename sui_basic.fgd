@@ -89,15 +89,15 @@
 	]
 ]
 
-@SolidClass base(BaseBrush, Angles, Target, TargetName) = func_door_rotating : "Rotating door"
+@SolidClass base(BaseBrush, Target, TargetName) = func_door_teleport : "Teleporting door"
 [
-    distance(float) : "Rotation angle (degrees)" : "90"
-    wait(float) : "Delay before closing (in seconds)" : "3"
-    speed(float) : "Rotation speed in degrees per second" : "100"
-    target(target_destination) : "Origin brush name" : : "Name of the info_null entity to use as rotation origin. If not specified, rotates around its own origin."
+    target(target_destination) : "Teleport destination" : : "Name of the teleport_destination entity to teleport to"
     spawnflags(flags) =
     [
-        1 : "Start open" : 0
         2 : "Usable" : 0
     ]
+]
+
+@PointClass base(TargetName, Angles) color(128 128 128) size(-16 -16 -16, 16 16 16) = teleport_destination : "Teleport destination point"
+[
 ]
