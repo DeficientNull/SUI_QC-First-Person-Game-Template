@@ -3,6 +3,8 @@ float menu_active;
 
 float splash_time;
 
+
+
 void() m_init =
 {
 	splash_time = time + 2.5;

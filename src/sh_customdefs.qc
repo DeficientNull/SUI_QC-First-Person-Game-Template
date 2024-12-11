@@ -14,3 +14,11 @@ void() precache_everything =
 	precache_sound("buttons/switch02.wav");
 	precache_sound("buttons/switch04.wav");
 };
+
+const float EVENT_FADEIN = 1;
+const float EVENT_FADEOUT = 2;
+/*
+enum :int {
+	EVENT_FADEIN,
+	EVENT_FADEOUT
+}; */ 

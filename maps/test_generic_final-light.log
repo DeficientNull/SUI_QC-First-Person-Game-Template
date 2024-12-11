@@ -42,8 +42,8 @@ Loading extended texinfo flags from test_generic_final.texinfo.json...
 
 Embree_TraceInit: Embree version: 3.13.1
 Embree_TraceInit: 
-	143 sky faces
-	5223 solid faces
+	141 sky faces
+	5216 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 13 initial lights
@@ -54,12 +54,12 @@ SetupLights: 13 after jittering
 Final count: 13 lights, 66 suns in use.
        48 dirtmap vectors
 206 surface light points in use.
-lightmap size (total): 552456
+lightmap size (total): 553152
 Lighting Completed.
 
 0 switchable light styles (32 max)
 Writing test_generic_final.bsp as Quake II BSP IBSP:38
-12.747s seconds elapsed
+10.315s seconds elapsed
 0 empty lightmaps
 
 

@@ -27,6 +27,9 @@ float input_cursor;
 vector campos;
 vector camang;
 
+float is_fadingin;
+float is_fadingout;
+
 entity localplayer;
 
 vector() readvector =

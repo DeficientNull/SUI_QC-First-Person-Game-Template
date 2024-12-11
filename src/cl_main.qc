@@ -45,6 +45,7 @@ void(float width, float height, float menushown) CSQC_UpdateView =
 	//does what you think it does
 	renderscene();
 	
+	draw_fade();
 	/*sui_pre_draw(g_width, g_height);
 	
 	test_sui_system();
@@ -87,6 +88,12 @@ void() CSQC_Parse_Event =
 {
 	float first = readbyte();
 	switch(first) {
+		case EVENT_FADEIN:
+			is_fadingin = 1;
+			break;
+		case EVENT_FADEOUT:
+			is_fadingout = 1;
+			break;
 		default:
 			printf("No action for byte %f\n", first);
 			break;

@@ -1,7 +1,6 @@
 .string target;        // Target destination entity
 .string targetname;    // For targeting this door
 
-vector user_origin;
 .vector destination_origin;
 
 void() func_door_teleport_use =
@@ -13,13 +12,26 @@ void() func_door_teleport_use =
         print("func_door_teleport: no destination found\n");
         return;
     }
-    
+
+    // figure out who activator is
+
+    // fade in
+    BeginEvent(EVENT_FADEIN);
+    msg_entity = activator;
+    multicast(self.origin, MULTICAST_ONE_R);   
+
     // do sound
     if (self.noise)
         sound(self, CHAN_BODY, self.noise, 10, ATTN_NORM);
+
     // Teleport the activator to destination
     setorigin(activator, dest.origin);
     activator.angles = dest.angles;  // Also set view angles
+    
+    // fade out
+    BeginEvent(EVENT_FADEOUT);
+    msg_entity = activator;
+    multicast(self.origin, MULTICAST_ONE_R);
 };
 
 void() func_door_teleport =
