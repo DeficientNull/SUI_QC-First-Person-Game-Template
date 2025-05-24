@@ -18,9 +18,7 @@ static enumflags {
 .vector origin_closed;
 .vector origin_open;
 .vector movedir;
-
 .float direction;
-
 .float is_moving;
 
 
@@ -46,7 +44,7 @@ static void func_door_setup(void)
 
 static void func_door_null(void)
 {
-	// no op
+	// null 
 }
 
 static void func_door_done(void)
