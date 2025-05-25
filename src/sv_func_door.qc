@@ -44,7 +44,7 @@ static void func_door_setup(void)
 
 static void func_door_null(void)
 {
-	// null 
+	// no op
 }
 
 static void func_door_done(void)

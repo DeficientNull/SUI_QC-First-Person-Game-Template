@@ -155,7 +155,7 @@ textures/dev/yellow
 
 textures/dev/test_sky
 {
-	qer_editorimage textures/dev/edsky.tga
+	qer_editorimage textures/skies/sky25_64.tga
 
 	q3map_globaltexture
 	q3map_lightsubdivide 256
@@ -166,5 +166,8 @@ textures/dev/test_sky
 	surfaceparm noimpact
 	surfaceparm nolightmap
 	surfaceparm nomarks
-	skyparms textures/tropical/sky - -
+	skyparms full 512 -
+	{
+		map textures/skies/sky25_64.tga
+	}
 }

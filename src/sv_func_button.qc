@@ -18,8 +18,6 @@
 .string target;        // Target entity to trigger
 .string targetname;
 
-
-
 void() button_return =
 {
     print("button returning");

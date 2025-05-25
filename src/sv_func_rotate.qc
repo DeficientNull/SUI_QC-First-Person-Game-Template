@@ -1,5 +1,7 @@
 // code based on jaycie erysdren's "func rotate"
 // found here https://erysdren.me/docs/rotating-brushes/
+// TDOO add enums/enumflags back in.
+
 .float speedx;
 .float speedy;
 .float speedz;
@@ -40,7 +42,7 @@ void func_rotate()
 	// setup brush model
 	self.movetype = MOVETYPE_PUSH;
 	self.solid = SOLID_BSP;
-	setorigin(self, self.origin);
+	setorigin(self, self.origin); // origin is found based on surfaceparm (q3);
 	setmodel(self, self.model);
 
 	// Initialize rotation state

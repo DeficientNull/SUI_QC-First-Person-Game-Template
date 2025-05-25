@@ -1,5 +1,5 @@
 25000
-_______________________________________2025-04-22_03:27:15
+_______________________________________2025-05-25_20:23:56
 1
 Player
 {
@@ -69,7 +69,7 @@ Player
 	parm63 0x0 //0
 	parm_string ""
 }
-\maxclients\8\maxspectators\8\hostname\unnamed\mapname\test_generic_final\skill\1\map\test_generic_final
+\maxclients\8\maxspectators\8\hostname\unnamed\mapname\test_generic_final2\skill\1\map\test_generic_final2
 
 {
 skill			"1"
@@ -95,5 +95,5 @@ set nextserver		""
 }
 {
 }
-test_generic_final
+test_generic_final2
 0

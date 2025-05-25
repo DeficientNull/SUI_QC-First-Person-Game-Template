@@ -2,7 +2,7 @@ float alpha_fade = 0f;
 
 void() draw_fade =
 {
-	sui_fill();
+//	sui_fill();
 	if (is_fadingin == 1) {
 		print("fading in");
 		
