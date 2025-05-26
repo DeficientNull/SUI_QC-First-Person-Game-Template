@@ -153,6 +153,12 @@ textures/dev/yellow
 	}
 }
 
+textures/light/dev_light_yellow
+{
+	surfaceparm nolightmap
+	qer_editorimage textures/light/light_warm.png
+}
+
 textures/dev/test_sky
 {
 	qer_editorimage textures/skies/sky25_64.tga
