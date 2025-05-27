@@ -157,6 +157,7 @@ textures/light/dev_light_yellow
 {
 	surfaceparm nolightmap
 	qer_editorimage textures/light/light_warm.png
+	q3map_surfacelight 150
 }
 
 textures/dev/test_sky
