@@ -153,11 +153,26 @@ textures/dev/yellow
 	}
 }
 
+textures/light/dev_light_white
+{
+	qer_editorImage textures/light/lighty.png
+	qer_lightImage textures/light/lighty.png
+	q3map_surfacelight 3000
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/light/lighty.png
+		blendfunc add
+	}
+}
+
 textures/light/dev_light_yellow
 {
 	qer_editorImage textures/light/light_warm.png
 	q3map_lightImage textures/light/light_warm.png
-	q3map_surfacelight 2000
+	q3map_surfacelight 3000
 	{
 		map $lightmap
 		rgbGen identity
