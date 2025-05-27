@@ -15,13 +15,13 @@ default
 1 // ESurfaceType::Meta V: 4 I: 6 planar
 {
 	shader textures/light/dev_light_yellow
-	sampleSize 0
+	lightmapAxis ( 0.000000 1.000000 0.000000 )
 }
 
 2 // ESurfaceType::Meta V: 4 I: 6 planar
 {
 	shader textures/light/dev_light_yellow
-	sampleSize 0
+	lightmapAxis ( 1.000000 0.000000 0.000000 )
 }
 
 3 // ESurfaceType::Meta V: 6 I: 12 planar

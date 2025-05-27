@@ -155,10 +155,17 @@ textures/dev/yellow
 
 textures/light/dev_light_yellow
 {
-	surfaceparm nolightmap
-	map textures/light/light_warm.png
-	qer_editorimage textures/light/light_warm.png
-	q3map_surfacelight 150
+	qer_editorImage textures/light/light_warm.png
+	q3map_lightImage textures/light/light_warm.png
+	q3map_surfacelight 2000
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/light/light_warm.png
+		blendfunc add
+	}
 }
 
 textures/dev/test_sky
