@@ -190,7 +190,7 @@ textures/dev/test_sky
 	q3map_globaltexture
 	q3map_lightsubdivide 256
 	q3map_surfaceLight 120
-	q3map_sun 0.7 0.6 0.8 550 60 45
+	q3map_sun 0.4 0.4 0.4 50 60 45
 	
 	surfaceparm sky
 	surfaceparm noimpact
