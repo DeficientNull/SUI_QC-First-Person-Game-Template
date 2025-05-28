@@ -7785,7 +7785,7 @@ default
 
 1211 // ESurfaceType::Meta V: 4 I: 6 planar
 {
-	shader textures/grid16
+	shader textures/measure/grid16
 	entity 20
 	castShadows 0
 	lightmapAxis ( -1.000000 -0.000000 -0.000000 )
@@ -7793,7 +7793,7 @@ default
 
 1212 // ESurfaceType::Meta V: 4 I: 6 planar
 {
-	shader textures/grid16
+	shader textures/measure/grid16
 	entity 20
 	castShadows 0
 	lightmapAxis ( -0.000000 -1.000000 -0.000000 )
@@ -7801,7 +7801,7 @@ default
 
 1213 // ESurfaceType::Meta V: 4 I: 6 planar
 {
-	shader textures/grid16
+	shader textures/measure/grid16
 	entity 20
 	castShadows 0
 	lightmapAxis ( -0.000000 -0.000000 -1.000000 )
@@ -7809,7 +7809,7 @@ default
 
 1214 // ESurfaceType::Meta V: 4 I: 6 planar
 {
-	shader textures/grid16
+	shader textures/measure/grid16
 	entity 20
 	castShadows 0
 	lightmapAxis ( 0.000000 1.000000 0.000000 )
@@ -7817,7 +7817,7 @@ default
 
 1215 // ESurfaceType::Meta V: 4 I: 6 planar
 {
-	shader textures/grid16
+	shader textures/measure/grid16
 	entity 20
 	castShadows 0
 	lightmapAxis ( 1.000000 0.000000 0.000000 )
@@ -7825,7 +7825,7 @@ default
 
 1216 // ESurfaceType::Meta V: 4 I: 6 planar
 {
-	shader textures/grid16
+	shader textures/measure/grid16
 	entity 20
 	castShadows 0
 	lightmapAxis ( 0.000000 0.000000 1.000000 )
