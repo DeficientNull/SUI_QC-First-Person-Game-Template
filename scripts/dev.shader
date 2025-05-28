@@ -4,7 +4,9 @@ textures/dev/dev_origin
 
 	surfaceparm origin
 	surfaceparm nolightmap
+	surfaceparm nodlight
 	srufaceparm nonsolid
+	surfaceparm nodraw
 }
 
 textures/dev/dev_playerclip
@@ -13,6 +15,8 @@ textures/dev/dev_playerclip
 	
 	surfaceparm solid
 	surfaceparm nolightmap
+	surfaceparm nodlight
+	surfaceparm nodraw
 }
 
 textures/light/dev_light_white
