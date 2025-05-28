@@ -1,4 +1,4 @@
-textures/dev/dev_origin
+textures/dev/origin
 {
 	qer_editorImage textures/dev/dev_origin.png
 
@@ -9,7 +9,7 @@ textures/dev/dev_origin
 	surfaceparm nodraw
 }
 
-textures/dev/dev_playerclip
+textures/dev/playerclip
 {
 	qer_editorImage textures/dev/dev_clip.png
 	
